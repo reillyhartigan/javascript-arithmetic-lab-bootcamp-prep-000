@@ -2,7 +2,7 @@ var a, b, n
 
 a = 254
 b = 5
-n = 10
+n = 2.22
 
 function add(a, b) {
   return a + b
@@ -27,8 +27,7 @@ parseInt(0, n)
 return n
 }
 function preserveDecimal(n) {
-parseFloat('n')
-return n
+return parseFloat(n)
 }
 /*
 describe('makeInt(n)', function() {
