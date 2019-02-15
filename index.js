@@ -1,7 +1,8 @@
-var a, b
+var a, b, n
 
 a = 254
 b = 5
+n = 10
 
 function add(a, b) {
   return a + b
@@ -21,9 +22,9 @@ function inc(a) {
 function dec(a) {
   return a -= 1
 }
-function makeInt(a) {
-return parseInt(10,a)
+function makeInt(n) {
+return parseInt(10,n)
 }
-function preserveDecimal(a) {
+function preserveDecimal(n) {
 
 }
