@@ -27,7 +27,8 @@ parseInt(10, n)
 return n
 }
 function preserveDecimal(n) {
-return parseFloat('n')
+parseFloat(n)
+return n
 }
 /*
 describe('makeInt(n)', function() {
